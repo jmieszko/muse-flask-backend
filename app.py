@@ -25,5 +25,5 @@ app.register_blueprint(song, url_prefix='/api/v1/songs') # adding this line
 
 # Run the app when the program starts!
 if __name__ == '__main__':
-    # models.initialize()
+    models.initialize()
     app.run(debug=DEBUG, port=PORT)
